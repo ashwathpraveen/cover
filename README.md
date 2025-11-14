@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date: 31/10/25
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,9 +31,63 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<html>
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        .bookcover {
+            width: 400px;
+            height: 640px;
+            color: black (221, 39, 39);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-image: url("image.png");
+            background-size: cover;
+        }
+
+        .pic {
+            position: relative;
+            top: 420px;
+            left: 5px;
+            width: 1px;
+            height: 1px;
+            background-size: cover;
+            color: black (221, 39, 39);
+        }
+    </style>
+    <title> Book Front Cover Page </title>
+</head>
+
+<body>
+    <div class="bookcover">
+
+        <div class="hr1">
+            <hr>
+        </div>
+
+
+        <div class="pic">
+            <img src="author.jpeg" width="150" height="150">
+        </div>
+        <div class="hr2">
+            <hr>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
+```
 
 ## OUTPUT:
+
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/94aa191b-be99-41bb-b5b8-b79f2e14d809" />
 
 
 ## RESULT:
